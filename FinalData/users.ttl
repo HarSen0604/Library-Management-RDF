@@ -1,0 +1,81 @@
+@prefix lib:  <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+lib:User_1  rdf:type          lib:Student ;
+        lib:username          "alice.smith" ;
+        lib:email             "alice.smith@example.com" ;
+        lib:password          "hashedpass001" ;
+        lib:registrationDate  "2022-01-15" .
+
+lib:User_2  rdf:type          lib:Student ;
+        lib:username          "bob.jones" ;
+        lib:email             "bob.jones@example.com" ;
+        lib:password          "hashedpass002" ;
+        lib:registrationDate  "2022-02-20" .
+
+lib:User_3  rdf:type          lib:Student ;
+        lib:username          "charlie.williams" ;
+        lib:email             "charlie.williams@example.com" ;
+        lib:password          "hashedpass003" ;
+        lib:registrationDate  "2022-03-10" .
+
+lib:User_4  rdf:type          lib:Student ;
+        lib:username          "dana.brown" ;
+        lib:email             "dana.brown@example.com" ;
+        lib:password          "hashedpass004" ;
+        lib:registrationDate  "2022-04-05" .
+
+lib:User_5  rdf:type          lib:Student ;
+        lib:username          "eric.taylor" ;
+        lib:email             "eric.taylor@example.com" ;
+        lib:password          "hashedpass005" ;
+        lib:registrationDate  "2022-05-12" .
+
+lib:User_6  rdf:type          lib:Student ;
+        lib:username          "fiona.clark" ;
+        lib:email             "fiona.clark@example.com" ;
+        lib:password          "hashedpass006" ;
+        lib:registrationDate  "2022-06-18" .
+
+lib:User_7  rdf:type          lib:Student ;
+        lib:username          "george.martin" ;
+        lib:email             "george.martin@example.com" ;
+        lib:password          "hashedpass007" ;
+        lib:registrationDate  "2022-07-22" .
+
+lib:User_8  rdf:type          lib:Student ;
+        lib:username          "helen.moore" ;
+        lib:email             "helen.moore@example.com" ;
+        lib:password          "hashedpass008" ;
+        lib:registrationDate  "2022-08-30" .
+
+lib:User_9  rdf:type          lib:Student ;
+        lib:username          "ian.white" ;
+        lib:email             "ian.white@example.com" ;
+        lib:password          "hashedpass009" ;
+        lib:registrationDate  "2022-09-14" .
+
+lib:User_10  rdf:type         lib:Student ;
+        lib:username          "jasmine.hall" ;
+        lib:email             "jasmine.hall@example.com" ;
+        lib:password          "hashedpass010" ;
+        lib:registrationDate  "2022-10-20" .
+
+lib:User_11  rdf:type         lib:Librarian ;
+        lib:username          "kevin.adams" ;
+        lib:email             "kevin.adams@example.com" ;
+        lib:password          "hashedpass011" ;
+        lib:registrationDate  "2021-11-25" .
+
+lib:User_12  rdf:type         lib:Librarian ;
+        lib:username          "laura.morgan" ;
+        lib:email             "laura.morgan@example.com" ;
+        lib:password          "hashedpass012" ;
+        lib:registrationDate  "2021-12-05" .
+
+lib:User_13  rdf:type         lib:Librarian ;
+        lib:username          "michael.wright" ;
+        lib:email             "michael.wright@example.com" ;
+        lib:password          "hashedpass013" ;
+        lib:registrationDate  "2021-12-15" .

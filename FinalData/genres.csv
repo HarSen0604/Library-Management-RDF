@@ -1,0 +1,5 @@
+genre_id,genreName,description
+Genre_1,Programming,"Books about computer programming, software development, algorithms, and coding best practices."
+Genre_2,Engineering,"Books covering the fundamentals and advanced topics in various branches of engineering."
+Genre_3,Physics,"Books focusing on the principles of physics, quantum mechanics, and theoretical models."
+Genre_4,Chemistry,"Books exploring chemical processes, reactions, laboratory techniques, and related research."

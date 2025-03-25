@@ -1,0 +1,22 @@
+@prefix lib:  <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/genre/Genre_1>
+        rdf:type         lib:Genre ;
+        lib:genreName    "Programming" ;
+        lib:description  "Books about computer programming, software development, algorithms, and coding best practices." .
+
+<http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/genre/Genre_2>
+        rdf:type         lib:Genre ;
+        lib:genreName    "Engineering" ;
+        lib:description  "Books covering the fundamentals and advanced topics in various branches of engineering." .
+
+<http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/genre/Genre_3>
+        rdf:type         lib:Genre ;
+        lib:genreName    "Physics" ;
+        lib:description  "Books focusing on the principles of physics, quantum mechanics, and theoretical models." .
+
+<http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/genre/Genre_4>
+        rdf:type         lib:Genre ;
+        lib:genreName    "Chemistry" ;
+        lib:description  "Books exploring chemical processes, reactions, laboratory techniques, and related research." .

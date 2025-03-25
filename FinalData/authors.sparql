@@ -1,0 +1,12 @@
+PREFIX lib: <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?author a lib:Author ;
+          lib:authorName ?name ;
+          lib:birthDate ?birthdate ;
+          lib:biography ?biography .
+}
+WHERE {
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?author_id)) AS ?author)
+}

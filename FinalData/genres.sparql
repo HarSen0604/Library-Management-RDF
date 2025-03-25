@@ -1,0 +1,10 @@
+PREFIX lib: <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/>
+
+CONSTRUCT {
+  ?genre a lib:Genre ;
+         lib:genreName ?genreName ;
+         lib:description ?description .
+}
+WHERE {
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/genre/", ?genre_id)) AS ?genre)
+}

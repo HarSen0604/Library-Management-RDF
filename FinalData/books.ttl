@@ -1,0 +1,322 @@
+@prefix lib:  <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+lib:Book_1  rdf:type         lib:Book ;
+        lib:title            "The Art of Computer Programming" ;
+        lib:ISBN             "9780201896831" ;
+        lib:publicationDate  "1968-01-01" ;
+        lib:writtenBy        "Donald Knuth" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "5" .
+
+lib:Book_2  rdf:type         lib:Book ;
+        lib:title            "COBOL Programming Essentials" ;
+        lib:ISBN             "9780131103627" ;
+        lib:publicationDate  "1960-05-15" ;
+        lib:writtenBy        "Grace Hopper" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "4" .
+
+lib:Book_3  rdf:type         lib:Book ;
+        lib:title            "Computing Machinery and Intelligence" ;
+        lib:ISBN             "9780192853732" ;
+        lib:publicationDate  "1950-10-01" ;
+        lib:writtenBy        "Alan Turing" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_4  rdf:type         lib:Book ;
+        lib:title            "Tesla's Inventions: A Journey into Electrical Engineering" ;
+        lib:ISBN             "9780143128540" ;
+        lib:publicationDate  "1901-07-15" ;
+        lib:writtenBy        "Nikola Tesla" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "6" .
+
+lib:Book_5  rdf:type         lib:Book ;
+        lib:title            "QED: The Strange Theory of Light and Matter" ;
+        lib:ISBN             "9780393338112" ;
+        lib:publicationDate  "1985-11-05" ;
+        lib:writtenBy        "Richard Feynman" ;
+        lib:hasGenre         "Physics" ;
+        lib:availableCopies  "4" .
+
+lib:Book_6  rdf:type         lib:Book ;
+        lib:title            "Marie Curie's Experiments: Radioactivity and Chemistry" ;
+        lib:ISBN             "9780520252302" ;
+        lib:publicationDate  "1910-03-12" ;
+        lib:writtenBy        "Marie Curie" ;
+        lib:hasGenre         "Chemistry" ;
+        lib:availableCopies  "5" .
+
+lib:Book_7  rdf:type         lib:Book ;
+        lib:title            "The Microchip Revolution" ;
+        lib:ISBN             "9780132350884" ;
+        lib:publicationDate  "1970-06-21" ;
+        lib:writtenBy        "Robert Noyce" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "7" .
+
+lib:Book_8  rdf:type         lib:Book ;
+        lib:title            "Notes on the Analytical Engine" ;
+        lib:ISBN             "9780262033848" ;
+        lib:publicationDate  "1843-12-10" ;
+        lib:writtenBy        "Ada Lovelace" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_9  rdf:type         lib:Book ;
+        lib:title            "The World Wide Web: Past, Present and Future" ;
+        lib:ISBN             "9780596009205" ;
+        lib:publicationDate  "1990-04-30" ;
+        lib:writtenBy        "Tim Berners-Lee" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "6" .
+
+lib:Book_10  rdf:type        lib:Book ;
+        lib:title            "Linux Kernel Development" ;
+        lib:ISBN             "9780134494166" ;
+        lib:publicationDate  "2005-09-15" ;
+        lib:writtenBy        "Linus Torvalds" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "8" .
+
+lib:Book_11  rdf:type        lib:Book ;
+        lib:title            "Algorithms Unlocked: A Modern Approach" ;
+        lib:ISBN             "9780132923705" ;
+        lib:publicationDate  "2002-03-25" ;
+        lib:writtenBy        "Donald Knuth" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "4" .
+
+lib:Book_12  rdf:type        lib:Book ;
+        lib:title            "Structured Programming Principles" ;
+        lib:ISBN             "9780201633610" ;
+        lib:publicationDate  "1987-07-12" ;
+        lib:writtenBy        "Grace Hopper" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_13  rdf:type        lib:Book ;
+        lib:title            "The Turing Test and Beyond" ;
+        lib:ISBN             "9780195124204" ;
+        lib:publicationDate  "1952-11-05" ;
+        lib:writtenBy        "Alan Turing" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "5" .
+
+lib:Book_14  rdf:type        lib:Book ;
+        lib:title            "AC Power Systems: Fundamentals and Applications" ;
+        lib:ISBN             "9780071485016" ;
+        lib:publicationDate  "1920-09-15" ;
+        lib:writtenBy        "Nikola Tesla" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "6" .
+
+lib:Book_15  rdf:type        lib:Book ;
+        lib:title            "Quantum Electrodynamics Simplified" ;
+        lib:ISBN             "9780471191780" ;
+        lib:publicationDate  "1965-04-10" ;
+        lib:writtenBy        "Richard Feynman" ;
+        lib:hasGenre         "Physics" ;
+        lib:availableCopies  "2" .
+
+lib:Book_16  rdf:type        lib:Book ;
+        lib:title            "The Chemistry of Radioactivity" ;
+        lib:ISBN             "9780520252302" ;
+        lib:publicationDate  "1910-03-12" ;
+        lib:writtenBy        "Marie Curie" ;
+        lib:hasGenre         "Chemistry" ;
+        lib:availableCopies  "4" .
+
+lib:Book_17  rdf:type        lib:Book ;
+        lib:title            "Microprocessor Design and Applications" ;
+        lib:ISBN             "9780132101090" ;
+        lib:publicationDate  "1975-08-23" ;
+        lib:writtenBy        "Robert Noyce" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "7" .
+
+lib:Book_18  rdf:type        lib:Book ;
+        lib:title            "Innovations in Computational Design" ;
+        lib:ISBN             "9780262033849" ;
+        lib:publicationDate  "1844-05-12" ;
+        lib:writtenBy        "Ada Lovelace" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_19  rdf:type        lib:Book ;
+        lib:title            "Internet Architecture and Protocols" ;
+        lib:ISBN             "9780596009205" ;
+        lib:publicationDate  "1991-08-15" ;
+        lib:writtenBy        "Tim Berners-Lee" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "6" .
+
+lib:Book_20  rdf:type        lib:Book ;
+        lib:title            "Open Source Revolution: Linux and Beyond" ;
+        lib:ISBN             "9780134494166" ;
+        lib:publicationDate  "2006-09-15" ;
+        lib:writtenBy        "Linus Torvalds" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "8" .
+
+lib:Book_21  rdf:type        lib:Book ;
+        lib:title            "Data Structures in Depth" ;
+        lib:ISBN             "9780321573513" ;
+        lib:publicationDate  "2003-06-12" ;
+        lib:writtenBy        "Donald Knuth" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "5" .
+
+lib:Book_22  rdf:type        lib:Book ;
+        lib:title            "COBOL: Legacy and Future" ;
+        lib:ISBN             "9780131103634" ;
+        lib:publicationDate  "1965-04-01" ;
+        lib:writtenBy        "Grace Hopper" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "4" .
+
+lib:Book_23  rdf:type        lib:Book ;
+        lib:title            "Mathematics of Computation" ;
+        lib:ISBN             "9780198551405" ;
+        lib:publicationDate  "1950-09-15" ;
+        lib:writtenBy        "Alan Turing" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_24  rdf:type        lib:Book ;
+        lib:title            "Electric Motors and Generators" ;
+        lib:ISBN             "9780070039055" ;
+        lib:publicationDate  "1905-03-20" ;
+        lib:writtenBy        "Nikola Tesla" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "6" .
+
+lib:Book_25  rdf:type        lib:Book ;
+        lib:title            "Feynman Lectures on Physics, Volume 1" ;
+        lib:ISBN             "9780465023820" ;
+        lib:publicationDate  "1964-01-01" ;
+        lib:writtenBy        "Richard Feynman" ;
+        lib:hasGenre         "Physics" ;
+        lib:availableCopies  "2" .
+
+lib:Book_26  rdf:type        lib:Book ;
+        lib:title            "Radiochemistry: Principles and Practice" ;
+        lib:ISBN             "9780521673681" ;
+        lib:publicationDate  "1925-07-20" ;
+        lib:writtenBy        "Marie Curie" ;
+        lib:hasGenre         "Chemistry" ;
+        lib:availableCopies  "5" .
+
+lib:Book_27  rdf:type        lib:Book ;
+        lib:title            "Semiconductor Fundamentals" ;
+        lib:ISBN             "9780132126953" ;
+        lib:publicationDate  "1978-10-10" ;
+        lib:writtenBy        "Robert Noyce" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "7" .
+
+lib:Book_28  rdf:type        lib:Book ;
+        lib:title            "Computational Pioneers: The Legacy of Ada Lovelace" ;
+        lib:ISBN             "9780262033850" ;
+        lib:publicationDate  "1845-11-15" ;
+        lib:writtenBy        "Ada Lovelace" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_29  rdf:type        lib:Book ;
+        lib:title            "Web Protocols and Standards" ;
+        lib:ISBN             "9780596009207" ;
+        lib:publicationDate  "1995-06-05" ;
+        lib:writtenBy        "Tim Berners-Lee" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "6" .
+
+lib:Book_30  rdf:type        lib:Book ;
+        lib:title            "Kernel Hacking and System Development" ;
+        lib:ISBN             "9780134494168" ;
+        lib:publicationDate  "2008-04-20" ;
+        lib:writtenBy        "Linus Torvalds" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "8" .
+
+lib:Book_31  rdf:type        lib:Book ;
+        lib:title            "Programming Paradigms Explained" ;
+        lib:ISBN             "9780321334879" ;
+        lib:publicationDate  "2000-09-09" ;
+        lib:writtenBy        "Donald Knuth" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "4" .
+
+lib:Book_32  rdf:type        lib:Book ;
+        lib:title            "Advanced COBOL Techniques" ;
+        lib:ISBN             "9780131103641" ;
+        lib:publicationDate  "1970-05-18" ;
+        lib:writtenBy        "Grace Hopper" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "4" .
+
+lib:Book_33  rdf:type        lib:Book ;
+        lib:title            "Computational Complexity and Theory" ;
+        lib:ISBN             "9780198751352" ;
+        lib:publicationDate  "1955-07-07" ;
+        lib:writtenBy        "Alan Turing" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_34  rdf:type        lib:Book ;
+        lib:title            "Modern Electrical Engineering" ;
+        lib:ISBN             "9780071414124" ;
+        lib:publicationDate  "1915-12-12" ;
+        lib:writtenBy        "Nikola Tesla" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "6" .
+
+lib:Book_35  rdf:type        lib:Book ;
+        lib:title            "Feynman’s Quantum Mechanics" ;
+        lib:ISBN             "9780465023837" ;
+        lib:publicationDate  "1967-03-05" ;
+        lib:writtenBy        "Richard Feynman" ;
+        lib:hasGenre         "Physics" ;
+        lib:availableCopies  "2" .
+
+lib:Book_36  rdf:type        lib:Book ;
+        lib:title            "Chemical Bonding and Radioactivity" ;
+        lib:ISBN             "9780521673698" ;
+        lib:publicationDate  "1930-08-30" ;
+        lib:writtenBy        "Marie Curie" ;
+        lib:hasGenre         "Chemistry" ;
+        lib:availableCopies  "5" .
+
+lib:Book_37  rdf:type        lib:Book ;
+        lib:title            "Silicon Valley: The Rise of Semiconductors" ;
+        lib:ISBN             "9780132126960" ;
+        lib:publicationDate  "1980-02-20" ;
+        lib:writtenBy        "Robert Noyce" ;
+        lib:hasGenre         "Engineering" ;
+        lib:availableCopies  "7" .
+
+lib:Book_38  rdf:type        lib:Book ;
+        lib:title            "Pioneering Computation: Essays on Early Programming" ;
+        lib:ISBN             "9780262033857" ;
+        lib:publicationDate  "1846-06-14" ;
+        lib:writtenBy        "Ada Lovelace" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "3" .
+
+lib:Book_39  rdf:type        lib:Book ;
+        lib:title            "Digital Networks and the Internet" ;
+        lib:ISBN             "9780596009218" ;
+        lib:publicationDate  "1998-12-12" ;
+        lib:writtenBy        "Tim Berners-Lee" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "6" .
+
+lib:Book_40  rdf:type        lib:Book ;
+        lib:title            "Open Source Innovations: Beyond Linux" ;
+        lib:ISBN             "9780134494169" ;
+        lib:publicationDate  "2010-07-07" ;
+        lib:writtenBy        "Linus Torvalds" ;
+        lib:hasGenre         "Programming" ;
+        lib:availableCopies  "8" .

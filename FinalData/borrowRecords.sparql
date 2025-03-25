@@ -1,0 +1,17 @@
+PREFIX lib: <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?record a lib:BorrowRecord ;
+          lib:borrowDate ?borrowDate ;
+          lib:dueDate ?dueDate ;
+          lib:returnDate ?returnDate ;
+          lib:status ?status ;
+          lib:borrowedBy ?user ;
+          lib:refersToBook ?book .
+}
+WHERE {
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?record_id)) AS ?record)
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?user_id)) AS ?user)
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?book_id)) AS ?book)
+}

@@ -1,0 +1,14 @@
+PREFIX lib: <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+  ?user a ?userType ;
+        lib:username ?username ;
+        lib:email ?email ;
+        lib:password ?password ;
+        lib:registrationDate ?registrationDate .
+}
+WHERE {
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?user_id)) AS ?user)
+  BIND(IF(?role = "Student", lib:Student, lib:Librarian) AS ?userType)
+}

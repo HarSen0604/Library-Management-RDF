@@ -1,0 +1,259 @@
+@prefix : <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/> .
+
+<http://www.semanticweb.org/santhoshir/ontologies/2025/2/library> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/birthDate
+:birthDate rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/borrowedBook
+:borrowedBook rdf:type owl:ObjectProperty ;
+              rdfs:domain :BorrowRecord ;
+              rdfs:range :Book .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/borrowedBy
+:borrowedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :BorrowRecord ;
+            rdfs:range :User .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/hasAuthor
+:hasAuthor rdf:type owl:ObjectProperty ;
+           rdfs:domain :Book ;
+           rdfs:range :Author .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/hasBorrowRecord
+:hasBorrowRecord rdf:type owl:ObjectProperty ;
+                 rdfs:domain :User ;
+                 rdfs:range :BorrowRecord .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/hasGenre
+:hasGenre rdf:type owl:ObjectProperty ;
+          rdfs:domain :Book ;
+          rdfs:range :Genre .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library#availableCopies
+:availableCopies rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Book ;
+                 rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/ISBN
+:ISBN rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Book ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/authorID
+:authorID rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Author ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/authorName
+:authorName rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Author ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/biography
+:biography rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Author ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/birthdate
+:birthdate rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Author ;
+           rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/bookID
+:bookID rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Book ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/bookTitle
+:bookTitle rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Book ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/borrowDate
+:borrowDate rdf:type owl:DatatypeProperty ;
+            rdfs:domain :BorrowRecord ;
+            rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/description
+:description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Genre ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/dueDate
+:dueDate rdf:type owl:DatatypeProperty ;
+         rdfs:domain :BorrowRecord ;
+         rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/email
+:email rdf:type owl:DatatypeProperty ;
+       rdfs:domain :User ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/genreID
+:genreID rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Genre ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/genreName
+:genreName rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Genre ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/password
+:password rdf:type owl:DatatypeProperty ;
+          rdfs:domain :User ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/publicationDate
+:publicationDate rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Book ;
+                 rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/recordID
+:recordID rdf:type owl:DatatypeProperty ;
+          rdfs:domain :BorrowRecord ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/registrationDate
+:registrationDate rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :User ;
+                  rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/returnDate
+:returnDate rdf:type owl:DatatypeProperty ;
+            rdfs:domain :BorrowRecord ;
+            rdfs:range xsd:date .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/role
+:role rdf:type owl:DatatypeProperty ;
+      rdfs:domain :User ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/status
+:status rdf:type owl:DatatypeProperty ;
+        rdfs:domain :BorrowRecord ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/userID
+:userID rdf:type owl:DatatypeProperty ;
+        rdfs:domain :User ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/username
+:username rdf:type owl:DatatypeProperty ;
+          rdfs:domain :User ;
+          rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/Author
+:Author rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/Book
+:Book rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/BorrowRecord
+:BorrowRecord rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/Genre
+:Genre rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/Librarian
+:Librarian rdf:type owl:Class ;
+           rdfs:subClassOf :User .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/Student
+:Student rdf:type owl:Class ;
+         rdfs:subClassOf :User .
+
+
+###  http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/User
+:User rdf:type owl:Class .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Author_1 :birthDate "1965-07-31"^^xsd:date .
+
+
+:Author_2 :birthDate "1903-06-25"^^xsd:date .
+
+
+:Author_3 :birthDate "1892-01-03"^^xsd:date .
+
+
+:Author_4 :birthDate "1775-12-16"^^xsd:date .
+
+
+:Author_5 :birthDate "1926-04-28"^^xsd:date .
+
+
+:Author_6 :birthDate "1975-12-19"^^xsd:date .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

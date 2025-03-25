@@ -1,0 +1,53 @@
+@prefix lib:  <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+lib:Author_1  rdf:type  lib:Author ;
+        lib:authorName  "Donald Knuth" ;
+        lib:birthDate   "1938-01-10" ;
+        lib:biography   "American computer scientist known for 'The Art of Computer Programming'." .
+
+lib:Author_2  rdf:type  lib:Author ;
+        lib:authorName  "Grace Hopper" ;
+        lib:birthDate   "1906-12-09" ;
+        lib:biography   "Pioneer in computer programming and a US Navy Rear Admiral." .
+
+lib:Author_3  rdf:type  lib:Author ;
+        lib:authorName  "Alan Turing" ;
+        lib:birthDate   "1912-06-23" ;
+        lib:biography   "British mathematician and computer scientist, key in cracking Nazi codes." .
+
+lib:Author_4  rdf:type  lib:Author ;
+        lib:authorName  "Nikola Tesla" ;
+        lib:birthDate   "1856-07-10" ;
+        lib:biography   "Inventor and electrical engineer known for his contributions to the AC electricity supply system." .
+
+lib:Author_5  rdf:type  lib:Author ;
+        lib:authorName  "Richard Feynman" ;
+        lib:birthDate   "1918-05-11" ;
+        lib:biography   "Influential American theoretical physicist known for his work in quantum mechanics." .
+
+lib:Author_6  rdf:type  lib:Author ;
+        lib:authorName  "Marie Curie" ;
+        lib:birthDate   "1867-11-07" ;
+        lib:biography   "Polish-born chemist and physicist famous for her research on radioactivity." .
+
+lib:Author_7  rdf:type  lib:Author ;
+        lib:authorName  "Robert Noyce" ;
+        lib:birthDate   "1927-12-12" ;
+        lib:biography   "American engineer and co-founder of Intel Corporation." .
+
+lib:Author_8  rdf:type  lib:Author ;
+        lib:authorName  "Ada Lovelace" ;
+        lib:birthDate   "1815-12-10" ;
+        lib:biography   "Mathematician and writer, considered the first computer programmer." .
+
+lib:Author_9  rdf:type  lib:Author ;
+        lib:authorName  "Tim Berners-Lee" ;
+        lib:birthDate   "1955-06-08" ;
+        lib:biography   "Inventor of the World Wide Web, influential in internet technology development." .
+
+lib:Author_10  rdf:type  lib:Author ;
+        lib:authorName  "Linus Torvalds" ;
+        lib:birthDate   "1969-12-28" ;
+        lib:biography   "Software engineer known for creating the Linux kernel." .

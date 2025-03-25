@@ -1,0 +1,116 @@
+@prefix lib:  <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+lib:BR_1  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-09-01" ;
+        lib:dueDate       "2023-09-15" ;
+        lib:returnDate    "2023-09-10" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "alice.smith" ;
+        lib:refersToBook  "The Art of Computer Programming" .
+
+lib:BR_2  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-09-05" ;
+        lib:dueDate       "2023-09-20" ;
+        lib:status        "borrowed" ;
+        lib:borrowedBy    "bob.jones" ;
+        lib:refersToBook  "COBOL Programming Essentials" .
+
+lib:BR_3  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-08-15" ;
+        lib:dueDate       "2023-08-30" ;
+        lib:returnDate    "2023-08-29" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "charlie.williams" ;
+        lib:refersToBook  "Computing Machinery and Intelligence" .
+
+lib:BR_4  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-09-10" ;
+        lib:dueDate       "2023-09-24" ;
+        lib:status        "borrowed" ;
+        lib:borrowedBy    "dana.brown" ;
+        lib:refersToBook  "Tesla's Inventions: A Journey into Electrical Engineering" .
+
+lib:BR_5  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-08-01" ;
+        lib:dueDate       "2023-08-15" ;
+        lib:status        "overdue" ;
+        lib:borrowedBy    "eric.taylor" ;
+        lib:refersToBook  "QED: The Strange Theory of Light and Matter" .
+
+lib:BR_6  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-09-12" ;
+        lib:dueDate       "2023-09-26" ;
+        lib:returnDate    "2023-09-25" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "fiona.clark" ;
+        lib:refersToBook  "Marie Curie's Experiments: Radioactivity and Chemistry" .
+
+lib:BR_7  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-06-10" ;
+        lib:dueDate       "2023-06-24" ;
+        lib:returnDate    "2023-06-22" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "george.martin" ;
+        lib:refersToBook  "The Microchip Revolution" .
+
+lib:BR_8  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-07-15" ;
+        lib:dueDate       "2023-07-29" ;
+        lib:status        "borrowed" ;
+        lib:borrowedBy    "helen.moore" ;
+        lib:refersToBook  "Notes on the Analytical Engine" .
+
+lib:BR_9  rdf:type        lib:BorrowRecord ;
+        lib:borrowDate    "2023-08-20" ;
+        lib:dueDate       "2023-09-03" ;
+        lib:returnDate    "2023-09-02" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "ian.white" ;
+        lib:refersToBook  "The World Wide Web: Past, Present and Future" .
+
+lib:BR_10  rdf:type       lib:BorrowRecord ;
+        lib:borrowDate    "2023-09-01" ;
+        lib:dueDate       "2023-09-15" ;
+        lib:status        "borrowed" ;
+        lib:borrowedBy    "jasmine.hall" ;
+        lib:refersToBook  "Linux Kernel Development" .
+
+lib:BR_11  rdf:type       lib:BorrowRecord ;
+        lib:borrowDate    "2023-07-01" ;
+        lib:dueDate       "2023-07-15" ;
+        lib:returnDate    "2023-07-14" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "alice.smith" ;
+        lib:refersToBook  "Algorithms Unlocked: A Modern Approach" .
+
+lib:BR_12  rdf:type       lib:BorrowRecord ;
+        lib:borrowDate    "2023-07-05" ;
+        lib:dueDate       "2023-07-19" ;
+        lib:status        "borrowed" ;
+        lib:borrowedBy    "bob.jones" ;
+        lib:refersToBook  "Structured Programming Principles" .
+
+lib:BR_13  rdf:type       lib:BorrowRecord ;
+        lib:borrowDate    "2023-06-20" ;
+        lib:dueDate       "2023-07-04" ;
+        lib:returnDate    "2023-07-03" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "charlie.williams" ;
+        lib:refersToBook  "The Turing Test and Beyond" .
+
+lib:BR_14  rdf:type       lib:BorrowRecord ;
+        lib:borrowDate    "2023-05-10" ;
+        lib:dueDate       "2023-05-24" ;
+        lib:returnDate    "2023-05-23" ;
+        lib:status        "returned" ;
+        lib:borrowedBy    "dana.brown" ;
+        lib:refersToBook  "AC Power Systems: Fundamentals and Applications" .
+
+lib:BR_15  rdf:type       lib:BorrowRecord ;
+        lib:borrowDate    "2023-09-05" ;
+        lib:dueDate       "2023-09-19" ;
+        lib:status        "borrowed" ;
+        lib:borrowedBy    "eric.taylor" ;
+        lib:refersToBook  "Quantum Electrodynamics Simplified" .

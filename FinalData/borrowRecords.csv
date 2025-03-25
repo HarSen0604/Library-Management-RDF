@@ -1,0 +1,16 @@
+record_id,user,book,borrowDate,dueDate,returnDate,status
+BR_1,alice.smith,"The Art of Computer Programming",2023-09-01,2023-09-15,2023-09-10,returned
+BR_2,bob.jones,"COBOL Programming Essentials",2023-09-05,2023-09-20,,borrowed
+BR_3,charlie.williams,"Computing Machinery and Intelligence",2023-08-15,2023-08-30,2023-08-29,returned
+BR_4,dana.brown,"Tesla's Inventions: A Journey into Electrical Engineering",2023-09-10,2023-09-24,,borrowed
+BR_5,eric.taylor,"QED: The Strange Theory of Light and Matter",2023-08-01,2023-08-15,,overdue
+BR_6,fiona.clark,"Marie Curie's Experiments: Radioactivity and Chemistry",2023-09-12,2023-09-26,2023-09-25,returned
+BR_7,george.martin,"The Microchip Revolution",2023-06-10,2023-06-24,2023-06-22,returned
+BR_8,helen.moore,"Notes on the Analytical Engine",2023-07-15,2023-07-29,,borrowed
+BR_9,ian.white,"The World Wide Web: Past, Present and Future",2023-08-20,2023-09-03,2023-09-02,returned
+BR_10,jasmine.hall,"Linux Kernel Development",2023-09-01,2023-09-15,,borrowed
+BR_11,alice.smith,"Algorithms Unlocked: A Modern Approach",2023-07-01,2023-07-15,2023-07-14,returned
+BR_12,bob.jones,"Structured Programming Principles",2023-07-05,2023-07-19,,borrowed
+BR_13,charlie.williams,"The Turing Test and Beyond",2023-06-20,2023-07-04,2023-07-03,returned
+BR_14,dana.brown,"AC Power Systems: Fundamentals and Applications",2023-05-10,2023-05-24,2023-05-23,returned
+BR_15,eric.taylor,"Quantum Electrodynamics Simplified",2023-09-05,2023-09-19,,borrowed

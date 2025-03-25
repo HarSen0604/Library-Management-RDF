@@ -1,0 +1,11 @@
+author_id,name,birthdate,biography
+Author_1,"Donald Knuth",1938-01-10,"American computer scientist known for 'The Art of Computer Programming'."
+Author_2,"Grace Hopper",1906-12-09,"Pioneer in computer programming and a US Navy Rear Admiral."
+Author_3,"Alan Turing",1912-06-23,"British mathematician and computer scientist, key in cracking Nazi codes."
+Author_4,"Nikola Tesla",1856-07-10,"Inventor and electrical engineer known for his contributions to the AC electricity supply system."
+Author_5,"Richard Feynman",1918-05-11,"Influential American theoretical physicist known for his work in quantum mechanics."
+Author_6,"Marie Curie",1867-11-07,"Polish-born chemist and physicist famous for her research on radioactivity."
+Author_7,"Robert Noyce",1927-12-12,"American engineer and co-founder of Intel Corporation."
+Author_8,"Ada Lovelace",1815-12-10,"Mathematician and writer, considered the first computer programmer."
+Author_9,"Tim Berners-Lee",1955-06-08,"Inventor of the World Wide Web, influential in internet technology development."
+Author_10,"Linus Torvalds",1969-12-28,"Software engineer known for creating the Linux kernel."

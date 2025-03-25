@@ -1,0 +1,16 @@
+PREFIX lib: <http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/>
+
+CONSTRUCT {
+  ?book a lib:Book ;
+        lib:title ?title ;
+        lib:ISBN ?ISBN ;
+        lib:publicationDate ?publicationDate ;
+        lib:writtenBy ?author ;
+        lib:hasGenre ?genre ;
+	lib:availableCopies ?availableCopies .
+}
+WHERE {
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?book_id)) AS ?book)
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?author_id)) AS ?author)
+  BIND(IRI(CONCAT("http://www.semanticweb.org/santhoshir/ontologies/2025/2/library/", ?genre_id)) AS ?genre)
+}

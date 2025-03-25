@@ -1,0 +1,14 @@
+user_id,username,email,password,role,registrationDate
+User_1,alice.smith,alice.smith@example.com,hashedpass001,Student,2022-01-15
+User_2,bob.jones,bob.jones@example.com,hashedpass002,Student,2022-02-20
+User_3,charlie.williams,charlie.williams@example.com,hashedpass003,Student,2022-03-10
+User_4,dana.brown,dana.brown@example.com,hashedpass004,Student,2022-04-05
+User_5,eric.taylor,eric.taylor@example.com,hashedpass005,Student,2022-05-12
+User_6,fiona.clark,fiona.clark@example.com,hashedpass006,Student,2022-06-18
+User_7,george.martin,george.martin@example.com,hashedpass007,Student,2022-07-22
+User_8,helen.moore,helen.moore@example.com,hashedpass008,Student,2022-08-30
+User_9,ian.white,ian.white@example.com,hashedpass009,Student,2022-09-14
+User_10,jasmine.hall,jasmine.hall@example.com,hashedpass010,Student,2022-10-20
+User_11,kevin.adams,kevin.adams@example.com,hashedpass011,Librarian,2021-11-25
+User_12,laura.morgan,laura.morgan@example.com,hashedpass012,Librarian,2021-12-05
+User_13,michael.wright,michael.wright@example.com,hashedpass013,Librarian,2021-12-15

@@ -1,0 +1,42 @@
+book_id,title,ISBN,publicationDate,author,genre,availableCopies
+Book_1,"The Art of Computer Programming","9780201896831","1968-01-01","Donald Knuth","Programming",5
+Book_2,"COBOL Programming Essentials","9780131103627","1960-05-15","Grace Hopper","Programming",4
+Book_3,"Computing Machinery and Intelligence","9780192853732","1950-10-01","Alan Turing","Programming",3
+Book_4,"Tesla's Inventions: A Journey into Electrical Engineering","9780143128540","1901-07-15","Nikola Tesla","Engineering",6
+Book_5,"QED: The Strange Theory of Light and Matter","9780393338112","1985-11-05","Richard Feynman","Physics",4
+Book_6,"Marie Curie's Experiments: Radioactivity and Chemistry","9780520252302","1910-03-12","Marie Curie","Chemistry",5
+Book_7,"The Microchip Revolution","9780132350884","1970-06-21","Robert Noyce","Engineering",7
+Book_8,"Notes on the Analytical Engine","9780262033848","1843-12-10","Ada Lovelace","Programming",3
+Book_9,"The World Wide Web: Past, Present and Future","9780596009205","1990-04-30","Tim Berners-Lee","Programming",6
+Book_10,"Linux Kernel Development","9780134494166","2005-09-15","Linus Torvalds","Programming",8
+Book_11,"Algorithms Unlocked: A Modern Approach","9780132923705","2002-03-25","Donald Knuth","Programming",4
+Book_12,"Structured Programming Principles","9780201633610","1987-07-12","Grace Hopper","Programming",3
+Book_13,"The Turing Test and Beyond","9780195124204","1952-11-05","Alan Turing","Programming",5
+Book_14,"AC Power Systems: Fundamentals and Applications","9780071485016","1920-09-15","Nikola Tesla","Engineering",6
+Book_15,"Quantum Electrodynamics Simplified","9780471191780","1965-04-10","Richard Feynman","Physics",2
+Book_16,"The Chemistry of Radioactivity","9780520252302","1910-03-12","Marie Curie","Chemistry",4
+Book_17,"Microprocessor Design and Applications","9780132101090","1975-08-23","Robert Noyce","Engineering",7
+Book_18,"Innovations in Computational Design","9780262033849","1844-05-12","Ada Lovelace","Programming",3
+Book_19,"Internet Architecture and Protocols","9780596009205","1991-08-15","Tim Berners-Lee","Programming",6
+Book_20,"Open Source Revolution: Linux and Beyond","9780134494166","2006-09-15","Linus Torvalds","Programming",8
+Book_21,"Data Structures in Depth","9780321573513","2003-06-12","Donald Knuth","Programming",5
+Book_22,"COBOL: Legacy and Future","9780131103634","1965-04-01","Grace Hopper","Programming",4
+Book_23,"Mathematics of Computation","9780198551405","1950-09-15","Alan Turing","Programming",3
+Book_24,"Electric Motors and Generators","9780070039055","1905-03-20","Nikola Tesla","Engineering",6
+Book_25,"Feynman Lectures on Physics, Volume 1","9780465023820","1964-01-01","Richard Feynman","Physics",2
+Book_26,"Radiochemistry: Principles and Practice","9780521673681","1925-07-20","Marie Curie","Chemistry",5
+Book_27,"Semiconductor Fundamentals","9780132126953","1978-10-10","Robert Noyce","Engineering",7
+Book_28,"Computational Pioneers: The Legacy of Ada Lovelace","9780262033850","1845-11-15","Ada Lovelace","Programming",3
+Book_29,"Web Protocols and Standards","9780596009207","1995-06-05","Tim Berners-Lee","Programming",6
+Book_30,"Kernel Hacking and System Development","9780134494168","2008-04-20","Linus Torvalds","Programming",8
+Book_31,"Programming Paradigms Explained","9780321334879","2000-09-09","Donald Knuth","Programming",4
+Book_32,"Advanced COBOL Techniques","9780131103641","1970-05-18","Grace Hopper","Programming",4
+Book_33,"Computational Complexity and Theory","9780198751352","1955-07-07","Alan Turing","Programming",3
+Book_34,"Modern Electrical Engineering","9780071414124","1915-12-12","Nikola Tesla","Engineering",6
+Book_35,"Feynman’s Quantum Mechanics","9780465023837","1967-03-05","Richard Feynman","Physics",2
+Book_36,"Chemical Bonding and Radioactivity","9780521673698","1930-08-30","Marie Curie","Chemistry",5
+Book_37,"Silicon Valley: The Rise of Semiconductors","9780132126960","1980-02-20","Robert Noyce","Engineering",7
+Book_38,"Pioneering Computation: Essays on Early Programming","9780262033857","1846-06-14","Ada Lovelace","Programming",3
+Book_39,"Digital Networks and the Internet","9780596009218","1998-12-12","Tim Berners-Lee","Programming",6
+Book_40,"Open Source Innovations: Beyond Linux","9780134494169","2010-07-07","Linus Torvalds","Programming",8
+
