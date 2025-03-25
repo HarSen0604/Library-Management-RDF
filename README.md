@@ -53,23 +53,26 @@ Make sure the following tools are installed and configured on your system:
 1. **Import Ontology into Protégé**  
    Open Protégé and import the `lib_ont.ttl` file (available in the repo) into **Active Ontologies**.
 
-2. **Clone the Repository**  
+2. **Import RDF Instances into Apache Jena**
+    Open http://localhost:3030/ on any browser. Then go to 'manage' -> 'Add New Database' and add the .ttl files from the directory 'FinalData' (available in the repo)  
+
+3. **Clone the Repository**  
    ```bash
    git clone https://github.com/SanthoshiRavi/Library-Management-RDF.git
    cd Library-Management-RDF
    ```
 
-3. **Install Dependencies**  
+4. **Install Dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Start Apache Jena Fuseki Server**  
+5. **Start Apache Jena Fuseki Server**  
    ```bash
    fuseki-server
    ```
 
-5. **Run the Application using Streamlit**  
+6. **Run the Application using Streamlit**  
    ```bash
    streamlit run main.py
    ```
