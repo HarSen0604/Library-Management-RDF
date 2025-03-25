@@ -1,0 +1,68 @@
+{
+    "books": [
+        {
+            "Title": "Atomic Habits",
+            "Author": "James Clear",
+            "Genre": "Self-help",
+            "Year": 2018,
+            "Available": 3
+        },
+        {
+            "Title": "The Pragmatic Programmer",
+            "Author": "Andy Hunt",
+            "Genre": "Programming",
+            "Year": 1999,
+            "Available": 1
+        },
+        {
+            "Title": "Harry Potter",
+            "Author": "J.K. Rowling",
+            "Genre": "Fantasy",
+            "Year": 1997,
+            "Available": 3
+        },
+        {
+            "Title": "Rich Dad Poor Dad",
+            "Author": "Robert Kiyosaki",
+            "Genre": "Finance",
+            "Year": 1997,
+            "Available": 2
+        },
+        {
+            "Title": "The Pragmatic Waste",
+            "Author": "Andy Hunt",
+            "Genre": "Programming",
+            "Year": 1999,
+            "Available": 1
+        },
+        {
+            "Title": "The Lean Startup",
+            "Author": "Eric Ries",
+            "Genre": "Business",
+            "Year": 2011,
+            "Available": 1
+        },
+        {
+            "Title": "Think and Grow Rich",
+            "Author": "Napoleon Hill",
+            "Genre": "Self-help",
+            "Year": 1937,
+            "Available": 4
+        },
+        {
+            "Title": "Eloquent JavaScript",
+            "Author": "Marijn Haverbeke",
+            "Genre": "Programming",
+            "Year": 2011,
+            "Available": 1
+        },
+        {
+            "Title": "A Semantic Web Primer Book",
+            "Author": "G. Antoniou",
+            "Genre": "Technology",
+            "Year": 2008,
+            "Available": 3
+        }
+    ],
+    "borrowed_books": []
+}
